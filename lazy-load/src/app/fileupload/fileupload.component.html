@@ -1,0 +1,7 @@
+<div class="login-container">
+    <h1>Upload csv file</h1>
+<input id="cin" name="cin" type="file" (change)="fileChangeEvent($event)" placeholder="Upload a file..." accept=".csv"/>
+
+<button (click)="downloadCSV()" class="btn-default">Download CSV</button>
+
+</div>
